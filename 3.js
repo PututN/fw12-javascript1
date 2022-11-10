@@ -1,7 +1,7 @@
-const mtk = 100
-const bahasaIndonesia = 90
-const bahasaInggris = 80
-const ipa = 90
+const mtk = 0;
+const bahasaIndonesia = 90;
+const bahasaInggris = 80;
+const ipa = 90;
 
 
 if (!mtk || !bahasaIndonesia || !bahasaInggris || !ipa) {

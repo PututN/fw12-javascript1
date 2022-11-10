@@ -14,4 +14,4 @@ function changeChar(inputString) {
     } return result;
 }
 
-console.log(changeChar("kakak"))
+console.log(changeChar("jakarta"))

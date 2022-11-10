@@ -12,8 +12,8 @@ function validatePalindrome(text) {
         } else {
             console.log('not Palindrome')
         }
-    } return
+    } 
 }
 
-console.log(validatePalindrome('ka'))
+validatePalindrome('makan')
 

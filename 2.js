@@ -1,8 +1,8 @@
 const biodata = {
-    name : 'Putut',
-    age  : 27,
-    hobbies : ["Badminton", "Jogging", "Cooking"],
-    isMarried : true,
+    name : 'Putut', //string
+    age  : 27, //number
+    hobbies : ["Badminton", "Jogging", "Cooking"], //array
+    isMarried : true, //boolean
     schoolList : [
         {
             School : "Gadjah Mada University",
@@ -10,15 +10,15 @@ const biodata = {
             yearOut : 2017,
             major : "Physics Engineering"
             }
-        ],
+        ], //array of object
     skills : [
         {
-            Engilish : "intermediate)", 
+            English : "intermediate", 
             Ms_Office : "advanced", 
             Analytical_Thinking : "intermediate",
         }
-    ],
-    interestInCoding : true,
+    ], //array of object
+    interestInCoding : true, //boolean
     }
 
     console.log(biodata)
