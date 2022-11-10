@@ -2,29 +2,29 @@ const mtk = 0;
 const bahasaIndonesia = 90;
 const bahasaInggris = 80;
 const ipa = 90;
+//input memiliki 4 nilai (mtk, bahasaIndonesia, bahasaInggris, ipa) yang harus diisi
 
-
-if (!mtk || !bahasaIndonesia || !bahasaInggris || !ipa) {
+if (!mtk || !bahasaIndonesia || !bahasaInggris || !ipa) { // jika salah satu ada yang tidak diisi (true) maka error
     console.log("Semua Nilai Harus Terisi !")
-} else {
-    let total = mtk + bahasaIndonesia + bahasaInggris + ipa;
-    let average = total / 4;
+} else { //jika semua terisi (false) maka akan menjalankan logic dibawah
+    const total = mtk + bahasaIndonesia + bahasaInggris + ipa;
+    const average = total / 4;
     if (average >= 90 && average <= 100) {
         console.log(`Rata-rata = ${average}`)
-        console.log(`Grade = A`)
+        console.log(`Grade = A`) //average 90-100 grade A
     } else if (average >= 80 && average <= 89) {
         console.log(`Rata-rata = ${average}`)
-        console.log(`Grade = B`)
+        console.log(`Grade = B`) //average 80-89 grade B
     } else if (average >= 70 && average <= 79) {
         console.log(`Rata-rata = ${average}`)
-        console.log(`Grade = C`)
+        console.log(`Grade = C`) //average 70-79 grade C
     } else if (average >= 60 && average <= 69) {
         console.log(`Rata-rata = ${average}`)
-        console.log(`Grade = D`)
+        console.log(`Grade = D`) //average 60-69 grade D
     } else if (average >= 0 && average <= 59) {
         console.log(`Rata-rata = ${average}`)
-        console.log(`Grade = E`)
+        console.log(`Grade = E`) //average 0-59 grade E
     } else {
-        console.log(`Nilai yang dimasukan salah`)
+        console.log(`Nilai yang dimasukan salah`) //average tidak dalam rentang 0-100
     }
 }
