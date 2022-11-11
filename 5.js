@@ -11,7 +11,7 @@ function changeChar(inputString) {
                 result += inputString[i] //jika inputstring[i] != a maka akan dituliskan ulang
             }
         }
-    } return result;
+    }return result;
 }
 
 console.log(changeChar('jakarta'))

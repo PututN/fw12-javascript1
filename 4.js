@@ -15,5 +15,5 @@ function validatePalindrome(text) {
     } 
 }
 
-validatePalindrome('makan')
+validatePalindrome('ma')
 
